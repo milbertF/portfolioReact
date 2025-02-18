@@ -9,6 +9,9 @@ import './style/nav.css'
 import Hero from './components/hero'
 import './style/hero.css'
 
+import Aboutus from './components/aboutus'
+import './style/aboutus.css'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,6 +21,7 @@ function App() {
 
         <Navigation/>
         <Hero />
+        <Aboutus />
       </div>
       
     </>
