@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+.aboutusCon {
+  min-height: 100vh;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0px 2rem 2rem;
+  box-sizing: border-box;
+}
+.asCon {
+  border-top: red solid 0.2rem;
+  border-left: red solid 0.2rem;
+  border-bottom: red solid 0.2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+  box-shadow: rgba(255, 0, 0, 0.5) 0rem 0rem 1.5rem;
+}
+
+.amHeadCon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21rem;
+}
+.asCon h2 {
+  font-size: 5rem;
+  font-weight: 900;
+  transform: scaleX(0.7) translateY(-2rem);
+  /* background-color: brown; */
+  width: fit-content;
+  white-space: nowrap;
+}
+.asCon h3 {
+  position: absolute;
+  color: red;
+  font-size: 4rem;
+  font-family: "Cedarville Cursive", serif;
+  text-shadow: black 0rem 0rem 1rem;
+  pointer-events: none;
+}
+.amBodyCon {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* .amBodyCon p {
+} */
+
+.amD {
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  > * {
+    width: 50%;
+  }
+}
+
+.amSkillCon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+.gh {
+  filter: invert(100%);
+}
+.amSkillCon img {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 80%;
+}
+.amSkillCon img:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+@media (max-width: 1190px) {
+  .amD {
+    flex-direction: column;
+    > * {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .amSkillCon {
+    gap: 0rem;
+  }
+}
+
+/* div {
+  border: red solid 1px;
+} */
