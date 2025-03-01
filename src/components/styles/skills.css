@@ -48,7 +48,7 @@
   width: 15rem;
   /* flex-basis: 20rem; */
   max-width: 100%;
-  perspective: 30rem;
+  perspective: 20rem;
 }
 .skillsCard {
   overflow: hidden;
@@ -70,7 +70,7 @@
   display: none;
 }
 .skillsCard:hover .skillsOverlay {
-  background-color: var(--white);
+  background-color: rgb(170, 170, 170);
   transition: background-color 0.3s ease;
   display: block;
   padding: 1rem;
@@ -87,17 +87,18 @@
   align-items: center;
 }
 .skillsBlur {
-  width: 10rem;
-  height: 10rem;
-  background: radial-gradient(var(--maroon), transparent);
+  width: 45rem;
+  height: 45rem;
+  background: radial-gradient(white, white, black, black, black);
   border-radius: 50%;
   pointer-events: none;
-  filter: blur(4rem);
+  filter: blur(7rem);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
   transform: translate(-50%, -50%);
   z-index: 3;
+  opacity: 0.4;
 }
 .skillsCard img {
   width: 80%;
