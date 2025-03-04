@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 .headerWhole {
   position: fixed;
   top: 0;
@@ -78,7 +78,7 @@
   gap: 2rem;
 }
 
-.headerWhole li ul {
+.headerWhole .navNor li ul {
   padding: 0.2rem 0.5rem;
   border-radius: 0.3rem;
   color: white;
@@ -99,3 +99,32 @@
 /* div {
   border: red solid 1px;
 } */
+
+.headerWhole div i {
+  display: none;
+}
+
+.navRes {
+  /* border: blue solid 2px; */
+  position: absolute;
+  top: 8vh;
+  left: 0;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.navRes li {
+  flex-direction: column;
+  color: black;
+  padding-block: 1rem;
+}
+.navRes li ul {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+}
