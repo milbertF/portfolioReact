@@ -5,6 +5,7 @@ import Hero from "./components/templates/hero.jsx";
 import Aboutme from "./components/templates/aboutme.jsx";
 import Header from "./components/templates/header.jsx";
 import Skills from "./components/templates/skills.jsx";
+import "./components/styles/responsive.css";
 
 function App() {
   useEffect(() => {

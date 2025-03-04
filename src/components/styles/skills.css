@@ -23,7 +23,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  font-size: 5rem;
+  font-size: clamp(2rem, 5vw, 5rem);
   color: rgba(255, 255, 255, 0.6);
   font-family: stretch;
   padding-inline: 2rem;
@@ -49,6 +49,7 @@
   /* flex-basis: 20rem; */
   max-width: 100%;
   perspective: 20rem;
+  transition: all 0.5s ease;
 }
 .skillsCard {
   overflow: hidden;

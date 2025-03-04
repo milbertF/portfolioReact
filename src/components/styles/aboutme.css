@@ -21,6 +21,7 @@
 }
 .aboutPic {
   width: 60%;
+  height: auto;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -67,7 +68,7 @@
   align-items: flex-end;
 }
 .aboutPicT h1 {
-  font-size: 5rem;
+  font-size: clamp(2rem, 5vw, 5rem);
   color: rgba(255, 255, 255, 0.6);
   font-family: stretch;
 }
